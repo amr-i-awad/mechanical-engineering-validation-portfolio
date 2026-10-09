@@ -1,16 +1,16 @@
-AMR IMAD AWAD - COMPACT SCISSOR LIFT MECHANISM
+AMR AWAD - COMPACT SCISSOR LIFT MECHANISM
 Self-Initiated Mechanical Design Project - Rev A
 
 PROJECT TYPE
-A genuine virtual mechanical engineering design project prepared from requirements through CAD, calculations, BOM, drawings, risk review, and portfolio documentation.
+A virtual mechanical engineering design project developed from requirements through CAD, calculations, BOM, drawings, concept-stage risk review, and portfolio documentation.
 
 IMPORTANT STATUS
-- CAD design: complete for portfolio / concept release
+- CAD design: complete for portfolio / concept-stage documentation
 - Engineering calculations: complete at global analytical level
 - Kinematic calculations: complete
 - BOM: complete
-- Main manufacturing profiles: complete as DXF
-- Manufacturing drawing set: complete as concept drawing package
+- Main manufacturing profiles: available as DXF
+- Manufacturing drawing set: available as a concept drawing package
 - Risk review: complete at concept stage
 - Local FEA: NOT performed
 - Physical prototype: NOT built
@@ -23,21 +23,21 @@ HOW TO DESCRIBE IT IN AN INTERVIEW
 "I completed a self-initiated scissor-lift mechanical design project to strengthen my CAD and engineering analysis skills. I defined the design requirements, developed the CAD assembly and part models, performed kinematic and analytical load calculations, sized the lead-screw concept, prepared a BOM and manufacturing drawings, and documented a concept-stage risk review. The project was completed as a virtual design study; physical prototyping and local FEA remain future validation steps."
 
 HOW TO OPEN IN SOLIDWORKS
-1. Open: 03_CAD/Scissor_Lift_Assembly_RevA.step
-2. Allow SOLIDWORKS to import the STEP assembly / multibody geometry.
+1. Open: cad/Scissor_Lift_Assembly_RevA.step
+2. Allow SolidWorks to import the STEP assembly / multibody geometry.
 3. Use Feature Recognition only if desired; it is not required for viewing or screenshots.
-4. Save a copy as a SOLIDWORKS assembly if needed.
-5. Individual STEP parts are in 03_CAD/STEP_Parts.
-6. STL parts are included for visualization / mesh workflows.
+4. Save a copy as a SolidWorks file if needed for continued work.
+5. Individual STEP parts are in cad/parts/.
 
-FOLDER CONTENTS
-00_Design_Report_RevA.pdf             Full engineering report
-01_Engineering_Calculations.xlsx      Inputs, formulas, kinematics, BOM, risks, design review
-02_BOM.csv                            Bill of materials
-03_CAD/                               Assembly + individual STEP/STL files
-04_Drawings/                          Technical drawing PDF + DXF profiles
-05_Validation/                        Kinematic and actuation plots
-06_Portfolio/                         Portfolio case study + CAD visualizations
+CURRENT REPOSITORY CONTENTS
+README.md                              Canonical project summary
+Engineering_Calculations.xlsx          Engineering calculations and design-review workbook
+BOM.csv                                Bill of materials
+cad/                                   Assembly and individual STEP parts
+dxf/                                   Manufacturing-profile DXF files
+Manufacturing_Drawings_RevA.pdf        Concept manufacturing drawing package
+validation/                            Kinematic and actuation plots plus prototype test plan
+Portfolio_Case_Study_RevA.pdf          Project case-study document
 
 CORE DESIGN TARGETS
 Rated centered payload: 10 kg
