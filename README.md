@@ -1,67 +1,87 @@
-# Amr Awad — Mechanical Engineering Validation Portfolio
+# Amr Awad — Mechanical Engineering Portfolio
 
-Mechanical Engineering graduate portfolio focused on **parametric CAD, FEA validation, thermal analysis, engineering automation, and mechanical design**.
+Mechanical Engineering graduate portfolio focused on **mechanical design, parametric CAD, FEA validation, thermal analysis, and engineering documentation**.
 
-The repository is intentionally organized around a simple engineering question: **can a design or simulation result be independently checked instead of merely accepted from the software?**
+This portfolio emphasizes a practical engineering principle: **CAD and simulation results should be checked against calculations, constraints, convergence behavior, or other independent evidence whenever possible.**
 
 [LinkedIn](https://www.linkedin.com/in/amr-awad-16b2a7278/) · Email: amrawad0595@gmail.com · [Portfolio PDF](docs/Amr_Awad_Engineering_Portfolio.pdf)
 
-## Featured projects
+## Featured Projects
 
-### 1. Automated Engineering Evaluation Harness — Python
-![Evaluation score](assets/evaluation_score.png)
+### 1. Compact Scissor Lift — Mechanical Design Study
 
-A deterministic evaluation pipeline that consumes CAD, static-FEA and thermal-validation outputs and produces configurable **PASS/FAIL decisions, weighted scores, JSON/CSV reports, SHA-256 input fingerprints, and unit-tested repeatability**.
-
-**Highlights:** baseline **99.3/100 PASS**; deliberately corrupted engineering results **44.818/100 FAIL**.
-
-[Open project →](projects/01-engineering-evaluation-harness/)
-
-### 2. Parametric CAD Validation Benchmark — CadQuery / STEP
-![Parametric CAD assembly](assets/parametric_cad.png)
-
-Adjustable motor-mount benchmark with Compact, Standard and Extended configurations, controlled travel, deterministic geometry checks and intentionally invalid parameter cases for CAD-debugging practice.
-
-**Focus:** parametric design, configurations, clearances, interference logic, geometry validity and reusable CAD data.
-
-[Open project →](projects/02-parametric-cad-validation/)
-
-### 3. Static FEA Ground-Truth Benchmark
-![Static FEA](assets/static_fea.png)
-
-Cantilever benchmark comparing a transparent finite-element model against closed-form beam theory, including mesh convergence and reaction-equilibrium checks.
-
-**Fine-mesh results:** tip-deflection error **0.52%**; sampled bending-stress error **0.33%**.
-
-[Open project →](projects/03-static-fea-ground-truth/)
-
-### 4. Thermal FEA Ground-Truth Benchmark
-![Thermal validation](assets/thermal_validation.png)
-
-Aluminum cooling-fin benchmark comparing numerical finite-element predictions against an analytical fin solution and energy conservation.
-
-**Fine-mesh results:** tip-temperature error **0.0012%**; heat-flow error **0.0015%**.
-
-[Open project →](projects/04-thermal-fea-ground-truth/)
-
-### 5. Compact Scissor Lift — Mechanical Design Study
 ![Scissor lift](assets/scissor_lift.png)
 
-Virtual mechanical-design project covering requirements, CAD assembly, kinematics, analytical loading, lead-screw sizing, BOM, manufacturing profiles and concept-stage validation.
+A self-initiated virtual mechanical-design project developed from requirements through CAD, kinematic and analytical calculations, lead-screw concept sizing, BOM, manufacturing profiles, drawings, and concept-stage risk review.
 
-**Design target:** centered payload **10 kg**. This is a virtual design study; it was not physically manufactured or proof-load tested.
+**Design target:** 10 kg centered payload.
+
+**Evidence includes:** CAD assembly and component models, kinematic and analytical load calculations, lead-screw force/torque/self-locking review, BOM, DXF manufacturing profiles, concept manufacturing drawings, validation plots, and a prototype test plan.
+
+**Validation status:** This is a virtual design study. A physical prototype, proof-load testing, endurance testing, local FEA, and safety certification were not completed. It must not be interpreted as a manufactured or certified lifting device and is not intended for lifting people.
 
 [Open project →](projects/05-compact-scissor-lift/)
 
-## Technical areas demonstrated
+### 2. Static FEA Ground-Truth Benchmark
 
-- **CAD:** SolidWorks-compatible STEP workflows, CadQuery, AutoCAD/DXF, assemblies, parametric configurations
-- **Simulation:** FEA fundamentals, static structural analysis, thermal analysis, mesh convergence
-- **Validation:** analytical ground truth, equilibrium checks, energy balance, deterministic acceptance rules
-- **Programming:** Python, NumPy, SciPy, pandas, unit testing, JSON/CSV engineering pipelines
-- **Mechanical design:** kinematics, load calculations, lead-screw sizing, BOM and manufacturing documentation
+![Static FEA](assets/static_fea.png)
 
-## Repository map
+A structural benchmark comparing a transparent numerical finite-element model with closed-form cantilever-beam calculations, including mesh convergence and equilibrium checks.
+
+**Important:** the documented **0.52% tip-deflection error and approximately 0.33% sampled bending-stress error belong to the numerical Q4 benchmark**. They should not be described as ANSYS result errors unless corresponding ANSYS result artifacts are available.
+
+Amr has separately performed hands-on Static Structural FEA work in ANSYS involving model setup, material definition, loads/supports, meshing, stress/deformation review, and analytical/convergence reasoning.
+
+[Open project →](projects/03-static-fea-ground-truth/)
+
+### 3. Parametric CAD Validation Benchmark — CadQuery / STEP
+
+![Parametric CAD assembly](assets/parametric_cad.png)
+
+A personally authored parametric adjustable motor-mount benchmark created to investigate **configuration robustness, mechanical clearances, travel constraints, geometry validity, and deterministic CAD validation**.
+
+The project includes parametric CadQuery source, Compact/Standard/Extended configurations, STEP geometry, DXF profiles, validation CSV/JSON, multiple slider travel states, and intentionally invalid parameter cases.
+
+STEP files can be opened in SolidWorks, but they do not preserve a native SolidWorks feature tree. The project therefore should not be described as native SolidWorks parametric modeling.
+
+[Open project →](projects/02-parametric-cad-validation/)
+
+### 4. Thermal FEA Ground-Truth Benchmark
+
+![Thermal validation](assets/thermal_validation.png)
+
+A thermal benchmark comparing a transparent numerical finite-element model with a closed-form analytical fin solution and energy-balance checks.
+
+The documented numerical benchmark reports **0.0012% tip-temperature error** and **0.0015% heat-flow error**.
+
+**Important:** these accuracy values belong to the documented numerical benchmark. They should not be presented as ANSYS result errors unless corresponding ANSYS result artifacts establish that connection.
+
+Amr's hands-on Thermal FEA experience in ANSYS is separate from these benchmark-specific numerical values.
+
+[Open project →](projects/04-thermal-fea-ground-truth/)
+
+## Supporting Engineering Artifact
+
+### Automated Engineering Evaluation Harness
+
+![Evaluation score](assets/evaluation_score.png)
+
+A deterministic Python-based evaluation pipeline that consumes validation outputs from the CAD, static-FEA, and thermal benchmarks and produces configurable PASS/FAIL decisions and structured reports.
+
+**Ownership note:** This artifact was developed **with external assistance**. It is retained as supporting context for the validation portfolio, but it should not be used by itself as evidence that Amr independently designed and implemented the complete Python evaluation infrastructure.
+
+The Parametric CAD Validation Benchmark is separate and was personally authored by Amr.
+
+[Open supporting artifact →](projects/01-engineering-evaluation-harness/)
+
+## Technical Evidence Areas
+
+- **Mechanical design:** kinematics, analytical loading, lead-screw concept sizing, mechanical component reasoning, BOM preparation, engineering drawings, and concept-stage risk review
+- **CAD:** SolidWorks 3D modeling, parametric CadQuery modeling, assemblies, STEP workflows, DXF profiles, configuration and clearance reasoning, and AutoCAD 2D
+- **Engineering analysis:** Static Structural FEA, Thermal FEA, mesh-convergence reasoning, analytical comparison, equilibrium checks, and energy-balance checks
+- **Engineering documentation:** calculations, BOMs, CAD deliverables, drawings, validation outputs, design limitations, and reproducible project organization
+
+## Repository Map
 
 ```text
 projects/
@@ -74,18 +94,16 @@ assets/
 docs/
 ```
 
-## Reproducing the Python work
+## Evidence and Ownership Policy
 
-Create a virtual environment and install the dependencies in `requirements.txt`. CadQuery installation can vary by platform; its official conda package is often the easiest route for the CAD project.
+Projects in this portfolio distinguish between:
 
-```bash
-python -m venv .venv
-# activate the environment, then:
-pip install -r requirements.txt
-```
+- **Designed** — original engineering design decisions made by Amr.
+- **Modeled / Re-modeled** — CAD geometry created by Amr, including work based on an existing reference.
+- **Calculated** — engineering calculations personally performed.
+- **Simulated** — analysis personally executed using simulation software.
+- **Numerically validated** — numerical or simulation results compared with analytical or independent numerical references.
+- **Physically tested** — used only when actual physical-testing evidence exists.
+- **Manufactured** — used only when hardware was actually fabricated.
 
-The evaluation harness itself uses only the Python standard library.
-
-## Engineering note
-
-These projects are portfolio and validation studies. Results and assumptions are documented in each project. They should not be treated as certified production designs or safety approvals.
+Virtual projects are not described as manufactured, physically tested, certified, or production-ready without corresponding evidence.
