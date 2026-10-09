@@ -26,13 +26,13 @@ The included model is a transparent **1D thermal finite-element benchmark**. The
 
 ## ANSYS Work
 
-Amr has separately performed hands-on Thermal FEA work in ANSYS, including model setup, material and thermal-boundary-condition definition, meshing, and temperature/thermal-result review.
+Amr has separately performed hands-on Thermal FEA work in ANSYS. That verified hands-on experience is stated separately from the benchmark-specific numerical values documented in this repository.
 
 ## Result Provenance
 
 The documented **0.0012% tip-temperature error** and **0.0015% heat-flow error** belong to the transparent numerical benchmark contained in this project.
 
-They are **not presented as ANSYS accuracy results**. The ANSYS replication material is a reproduction workflow, while Amr's hands-on ANSYS Thermal FEA experience is stated separately from these benchmark-specific numerical values.
+They are **not presented as ANSYS accuracy results**. The ANSYS replication material is a reproduction workflow and does not establish that these benchmark-specific accuracy values were produced by an ANSYS run.
 
 ## Scope
 
