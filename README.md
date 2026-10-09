@@ -4,7 +4,7 @@ Mechanical Engineering graduate portfolio focused on **mechanical design, parame
 
 This portfolio emphasizes a practical engineering principle: **CAD and simulation results should be checked against calculations, constraints, convergence behavior, or other independent evidence whenever possible.**
 
-[LinkedIn](https://www.linkedin.com/in/amr-awad-16b2a7278/) · Email: amrawad0595@gmail.com · [Portfolio PDF](docs/Amr_Awad_Engineering_Portfolio.pdf)
+[LinkedIn](https://www.linkedin.com/in/amr-awad-16b2a7278/) · Email: amrawad0595@gmail.com · [Portfolio document status](docs/README.md)
 
 ## Featured Projects
 
