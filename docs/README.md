@@ -1,14 +1,14 @@
 # Portfolio Document Status
 
-`Amr_Awad_Engineering_Portfolio.pdf` is retained in this repository as a **legacy portfolio snapshot**.
+The legacy `Amr_Awad_Engineering_Portfolio.pdf` was removed from the current branch because its wording no longer matched the portfolio's current claim/evidence standard and verified ownership boundaries.
 
-The PDF has not been re-audited as part of the current claim-accuracy cleanup, so it is **not the authoritative source for current ownership statements, validation provenance, project ranking, or portfolio claims**.
+The canonical portfolio is currently the repository Markdown and the inspectable project evidence contained in each project directory.
 
-For current portfolio information, use:
+Use:
 
 1. the repository root [README](../README.md), and
 2. the canonical `README.md` inside each project directory.
 
-Those current Markdown files apply the repository's evidence and ownership rules, including the separation between personal authorship, assisted work, numerical benchmark results, ANSYS hands-on experience, and physical testing/manufacturing status.
+These current Markdown files distinguish personal authorship, assisted work, numerical benchmark results, hands-on ANSYS experience, and physical testing/manufacturing status.
 
-The PDF should be treated as archival reference material until it is separately reviewed and updated against the same claim-accuracy standard.
+A new audited portfolio PDF can be created later from the current verified evidence base.
