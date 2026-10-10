@@ -2,11 +2,13 @@
 
 Mechanical Engineering graduate portfolio focused on **mechanical design, parametric CAD, FEA validation, thermal analysis, and engineering documentation**.
 
+Current career positioning: **Mechanical Design / CAD is the primary lane, HVAC / MEP is a verified secondary lane, and FEA / validation provides supporting engineering evidence.**
+
 This portfolio emphasizes a practical engineering principle: **CAD and simulation results should be checked against calculations, constraints, convergence behavior, or other independent evidence whenever possible.**
 
 [LinkedIn](https://www.linkedin.com/in/amr-awad-16b2a7278/) · Email: amrawad0595@gmail.com · [Portfolio document status](docs/README.md)
 
-## Featured Projects
+## Featured / Primary Mechanical Design & CAD Evidence
 
 ### 1. Compact Scissor Lift — Mechanical Design Study
 
@@ -22,19 +24,7 @@ A self-initiated virtual mechanical-design project developed from requirements t
 
 [Open project →](projects/05-compact-scissor-lift/)
 
-### 2. Static FEA Ground-Truth Benchmark
-
-![Static FEA](assets/static_fea.png)
-
-A structural benchmark comparing a transparent numerical finite-element model with closed-form cantilever-beam calculations, including mesh convergence and equilibrium checks.
-
-**Important:** the documented **0.52% tip-deflection error and approximately 0.33% sampled bending-stress error belong to the numerical Q4 benchmark**. They should not be described as ANSYS result errors unless corresponding ANSYS result artifacts are available.
-
-Amr has separately performed hands-on Static Structural FEA work in ANSYS involving model setup, material definition, loads/supports, meshing, stress/deformation review, and analytical/convergence reasoning.
-
-[Open project →](projects/03-static-fea-ground-truth/)
-
-### 3. Parametric CAD Validation Benchmark — CadQuery / STEP
+### 2. Parametric CAD Validation Benchmark — CadQuery / STEP
 
 ![Parametric CAD assembly](assets/parametric_cad.png)
 
@@ -45,6 +35,20 @@ The project includes parametric CadQuery source, Compact/Standard/Extended confi
 STEP files can be opened in SolidWorks, but they do not preserve a native SolidWorks feature tree. The project therefore should not be described as native SolidWorks parametric modeling.
 
 [Open project →](projects/02-parametric-cad-validation/)
+
+## Supporting Analysis & Validation Evidence
+
+### 3. Static FEA Ground-Truth Benchmark
+
+![Static FEA](assets/static_fea.png)
+
+A structural benchmark comparing a transparent numerical finite-element model with closed-form cantilever-beam calculations, including mesh convergence and equilibrium checks.
+
+**Important:** the documented **0.52% tip-deflection error and approximately 0.33% sampled bending-stress error belong to the numerical Q4 benchmark**. They should not be described as ANSYS result errors unless corresponding ANSYS result artifacts are available.
+
+Amr has separately performed hands-on Static Structural FEA work in ANSYS involving model setup, material definition, loads/supports, meshing, stress/deformation review, and analytical/convergence reasoning.
+
+[Open project →](projects/03-static-fea-ground-truth/)
 
 ### 4. Thermal FEA Ground-Truth Benchmark
 
@@ -74,10 +78,15 @@ The Parametric CAD Validation Benchmark is separate and was personally authored 
 
 [Open supporting artifact →](projects/01-engineering-evaluation-harness/)
 
+## Additional Verified Engineering Experience
+
+**HVAC / MEP:** Performed manual heating-load calculations and compared results with Carrier HAP using a **1,373 W design-load reference**; contributed HVAC/mechanical analysis within a four-member graduation-project team developing a simulation-based control concept.
+
 ## Technical Evidence Areas
 
 - **Mechanical design:** kinematics, analytical loading, lead-screw concept sizing, mechanical component reasoning, BOM preparation, engineering drawings, and concept-stage risk review
 - **CAD:** SolidWorks 3D modeling, parametric CadQuery modeling, assemblies, STEP workflows, DXF profiles, configuration and clearance reasoning, and AutoCAD 2D
+- **HVAC / MEP:** manual heating-load calculations, Carrier HAP comparison using a 1,373 W design-load reference, and verified graduation-project HVAC/mechanical analysis contribution
 - **Engineering analysis:** Static Structural FEA, Thermal FEA, mesh-convergence reasoning, analytical comparison, equilibrium checks, and energy-balance checks
 - **Engineering documentation:** calculations, BOMs, CAD deliverables, drawings, validation outputs, design limitations, and reproducible project organization
 
