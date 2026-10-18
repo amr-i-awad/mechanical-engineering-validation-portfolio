@@ -42,7 +42,7 @@ A Python-based portfolio benchmark that evaluates CAD/manufacturing metadata aga
 
 The workflow uses JSON inputs, deterministic scoring, structured PASS/FAIL reporting, and regression tests. The criteria are explicitly documented as configurable portfolio rules rather than universal production standards.
 
-**Development status:** the initial implementation used AI assistance; independent ownership should only be claimed after personal review, execution, modification, and technical validation.
+**Development and validation status:** The implementation used AI-assisted development. Amr personally reviewed the engineering criteria and Python logic, executed the benchmark and regression tests, modified the project, verified sample outputs, and validated the documented scope and limitations. This project can therefore be used as evidence of a **personally validated AI-assisted engineering development workflow**, not as evidence of unaided or advanced Python software-engineering authorship.
 
 [Open project →](projects/06-cad-manufacturing-evaluation/)
 
@@ -97,6 +97,7 @@ The Parametric CAD Validation Benchmark is separate and was personally authored 
 - **Mechanical design:** kinematics, analytical loading, lead-screw concept sizing, mechanical component reasoning, BOM preparation, engineering drawings, and concept-stage risk review
 - **CAD:** SolidWorks 3D modeling, parametric CadQuery modeling, assemblies, STEP workflows, DXF profiles, configuration and clearance reasoning, and AutoCAD 2D
 - **Manufacturing-oriented evaluation:** sheet-metal DFM reasoning, manufacturing metadata checks, configurable evaluation criteria, drawing/BOM completeness checks, and documented process limitations
+- **Python / AI-assisted engineering workflows:** personally validated Python-based engineering evaluation, structured JSON inputs/outputs, deterministic PASS/FAIL logic, regression testing, and technical review of AI-assisted implementation
 - **HVAC / MEP:** manual heating-load calculations, Carrier HAP comparison using a 1,373 W design-load reference, and verified graduation-project HVAC/mechanical analysis contribution
 - **Engineering analysis:** Static Structural FEA, Thermal FEA, mesh-convergence reasoning, analytical comparison, equilibrium checks, and energy-balance checks
 - **Engineering documentation:** calculations, BOMs, CAD deliverables, drawings, validation outputs, design limitations, and reproducible project organization
@@ -124,6 +125,7 @@ Projects in this portfolio distinguish between:
 - **Calculated** — engineering calculations personally performed.
 - **Simulated** — analysis personally executed using simulation software.
 - **Numerically validated** — numerical or simulation results compared with analytical or independent numerical references.
+- **AI-assisted development, personally validated** — implementation used AI assistance while Amr personally reviewed, executed, modified, tested, and technically validated the engineering logic and outputs.
 - **Physically tested** — used only when actual physical-testing evidence exists.
 - **Manufactured** — used only when hardware was actually fabricated.
 
