@@ -1,0 +1,23 @@
+{
+  "name": "CAD Manufacturing Evaluation Benchmark v1",
+  "benchmark_criteria": {
+    "min_thickness_mm": 1.0,
+    "max_thickness_mm": 5.0,
+    "min_bend_radius_to_thickness": 1.0,
+    "min_web_to_thickness": 2.0,
+    "min_hole_edge_to_diameter": 1.5,
+    "pass_threshold_percent": 80.0,
+    "mandatory_checks": [
+      "drawing_completeness",
+      "bom_completeness"
+    ],
+    "weights": {
+      "thickness_range": 15,
+      "bend_radius": 20,
+      "web_width": 15,
+      "hole_edge_distance": 20,
+      "drawing_completeness": 20,
+      "bom_completeness": 10
+    }
+  }
+}
