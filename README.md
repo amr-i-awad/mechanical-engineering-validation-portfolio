@@ -1,12 +1,12 @@
 # Amr Awad — Mechanical Engineering Portfolio
 
-Mechanical Engineering graduate portfolio focused on **mechanical design, parametric CAD, FEA validation, thermal analysis, and engineering documentation**.
+Mechanical Engineering graduate portfolio focused on **mechanical design, parametric CAD, manufacturing-oriented evaluation, FEA validation, thermal analysis, and engineering documentation**.
 
 Current career positioning: **Mechanical Design / CAD is the primary lane, HVAC / MEP is a verified secondary lane, and FEA / validation provides supporting engineering evidence.**
 
-This portfolio emphasizes a practical engineering principle: **CAD and simulation results should be checked against calculations, constraints, convergence behavior, or other independent evidence whenever possible.**
+This portfolio emphasizes a practical engineering principle: **CAD and simulation results should be checked against calculations, constraints, convergence behavior, explicit evaluation criteria, or other independent evidence whenever possible.**
 
-[LinkedIn](https://www.linkedin.com/in/amr-awad-16b2a7278/) · Email: amrawad0595@gmail.com · [Portfolio document status](docs/README.md)
+[LinkedIn](https://www.linkedin.com/in/amr-i-awad) · Email: amrawad0595@gmail.com · [Portfolio document status](docs/README.md)
 
 ## Featured / Primary Mechanical Design & CAD Evidence
 
@@ -36,9 +36,19 @@ STEP files can be opened in SolidWorks, but they do not preserve a native SolidW
 
 [Open project →](projects/02-parametric-cad-validation/)
 
+### 3. CAD Manufacturing Evaluation Benchmark — Python / DFM-Oriented Review
+
+A Python-based portfolio benchmark that evaluates CAD/manufacturing metadata against configurable engineering criteria such as material thickness, bend-radius-to-thickness relationship, web width, hole-to-edge distance, drawing completeness, and BOM completeness.
+
+The workflow uses JSON inputs, deterministic scoring, structured PASS/FAIL reporting, and regression tests. The criteria are explicitly documented as configurable portfolio rules rather than universal production standards.
+
+**Development status:** the initial implementation used AI assistance; independent ownership should only be claimed after personal review, execution, modification, and technical validation.
+
+[Open project →](projects/06-cad-manufacturing-evaluation/)
+
 ## Supporting Analysis & Validation Evidence
 
-### 3. Static FEA Ground-Truth Benchmark
+### 4. Static FEA Ground-Truth Benchmark
 
 ![Static FEA](assets/static_fea.png)
 
@@ -50,7 +60,7 @@ Amr has separately performed hands-on Static Structural FEA work in ANSYS involv
 
 [Open project →](projects/03-static-fea-ground-truth/)
 
-### 4. Thermal FEA Ground-Truth Benchmark
+### 5. Thermal FEA Ground-Truth Benchmark
 
 ![Thermal validation](assets/thermal_validation.png)
 
@@ -86,6 +96,7 @@ The Parametric CAD Validation Benchmark is separate and was personally authored 
 
 - **Mechanical design:** kinematics, analytical loading, lead-screw concept sizing, mechanical component reasoning, BOM preparation, engineering drawings, and concept-stage risk review
 - **CAD:** SolidWorks 3D modeling, parametric CadQuery modeling, assemblies, STEP workflows, DXF profiles, configuration and clearance reasoning, and AutoCAD 2D
+- **Manufacturing-oriented evaluation:** sheet-metal DFM reasoning, manufacturing metadata checks, configurable evaluation criteria, drawing/BOM completeness checks, and documented process limitations
 - **HVAC / MEP:** manual heating-load calculations, Carrier HAP comparison using a 1,373 W design-load reference, and verified graduation-project HVAC/mechanical analysis contribution
 - **Engineering analysis:** Static Structural FEA, Thermal FEA, mesh-convergence reasoning, analytical comparison, equilibrium checks, and energy-balance checks
 - **Engineering documentation:** calculations, BOMs, CAD deliverables, drawings, validation outputs, design limitations, and reproducible project organization
@@ -99,6 +110,7 @@ projects/
   03-static-fea-ground-truth/
   04-thermal-fea-ground-truth/
   05-compact-scissor-lift/
+  06-cad-manufacturing-evaluation/
 assets/
 docs/
 ```
