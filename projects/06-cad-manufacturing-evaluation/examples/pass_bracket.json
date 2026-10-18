@@ -1,0 +1,15 @@
+{
+  "candidate_id": "sheet_metal_bracket_pass",
+  "process": "sheet_metal",
+  "units": "mm",
+  "material": "mild_steel",
+  "thickness_mm": 2.0,
+  "inside_bend_radius_mm": 2.5,
+  "min_web_width_mm": 6.0,
+  "hole_diameters_mm": [4.0, 4.0],
+  "min_hole_edge_distance_mm": 7.0,
+  "drawing_has_units": true,
+  "drawing_has_material": true,
+  "drawing_has_thickness": true,
+  "bom_complete": true
+}
