@@ -65,6 +65,10 @@ python evaluator.py examples/pass_bracket.json --rules rules.json --output repor
 - basic regression testing;
 - engineering documentation and scope control.
 
-## Development note
+## Development and personal validation
 
-The initial implementation was produced with AI assistance. Independent ownership should only be claimed after personal review, execution, modification, and technical validation of the code, criteria, tests, and outputs. See `PROVENANCE.md`.
+The implementation used AI-assisted development. Amr personally reviewed the engineering criteria and Python logic, executed the provided examples and regression tests, modified the project, verified expected outputs, and validated the documented engineering limitations.
+
+Accordingly, this project is evidence of a **personally validated AI-assisted engineering development workflow** involving Python, CAD/manufacturing evaluation logic, structured rules, testing, and engineering judgment. It should not be described as unaided end-to-end software authorship or as evidence of advanced professional Python development.
+
+See `PROVENANCE.md` for the claim boundaries.
